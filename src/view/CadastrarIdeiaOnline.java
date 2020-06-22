@@ -7,9 +7,9 @@ package view;
 
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
-import projetin.Ideia;
-import projetin.Online;
-import projetin.Usuario;
+import controller.Ideia;
+import controller.Online;
+import model.Usuario;
 
 /**
  *
@@ -33,6 +33,7 @@ public class CadastrarIdeiaOnline extends javax.swing.JFrame {
     
     public CadastrarIdeiaOnline() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

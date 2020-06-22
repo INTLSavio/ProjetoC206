@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
-import projetin.Usuario;
+import model.Usuario;
 
 /**
  *
@@ -29,6 +29,7 @@ public class Login extends javax.swing.JFrame {
      */
     public Login() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

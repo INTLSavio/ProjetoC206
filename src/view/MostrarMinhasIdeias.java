@@ -7,10 +7,10 @@ package view;
 
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
-import projetin.Ideia;
-import projetin.Online;
-import projetin.Presencial;
-import projetin.Usuario;
+import controller.Ideia;
+import controller.Online;
+import controller.Presencial;
+import model.Usuario;
 
 /**
  *
@@ -36,6 +36,7 @@ public class MostrarMinhasIdeias extends javax.swing.JFrame {
 
     public MostrarMinhasIdeias() {
         initComponents();
+        this.setLocationRelativeTo(null);
         
     }
 

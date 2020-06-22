@@ -1,4 +1,4 @@
-package projetin;
+package controller;
 
 import java.io.Serializable;
 

@@ -5,7 +5,7 @@
  */
 package view;
 
-import projetin.Usuario;
+import model.Usuario;
 
 /**
  *
@@ -25,6 +25,7 @@ public class PaginaInicial extends javax.swing.JFrame {
 
     public PaginaInicial(){
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

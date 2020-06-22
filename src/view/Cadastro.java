@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
-import projetin.Usuario;
+import model.Usuario;
 
 /**
  *
@@ -38,6 +38,7 @@ public class Cadastro extends javax.swing.JFrame {
      */
     public Cadastro() {
         initComponents();
+        this.setLocationRelativeTo(null);
         tfIdade.setText("0");
     }
 
@@ -320,7 +321,7 @@ public class Cadastro extends javax.swing.JFrame {
                 try {
                     OutputStream os = new FileOutputStream("usuarios.txt", true);
                 } catch (FileNotFoundException ex) {
-                    System.out.println("Erro no lerdados de novo" + ex.toString());
+                    System.out.println("Erro" + ex.toString());
                 }
             }
             
@@ -366,7 +367,7 @@ public class Cadastro extends javax.swing.JFrame {
         OutputStreamWriter osw = new OutputStreamWriter(os);
         BufferedWriter dadosUsuario = new BufferedWriter(osw);
         
-        dadosUsuario.write(login+ "\n" + senha + "\n" + nome + "\n" + idade + "\n" + sexo +"\n*");
+        dadosUsuario.write(login+ "\n" + senha + "\n" + nome + "\n" + idade + "\n" + sexo +"\n*\n");
         dadosUsuario.close();  
     }
 

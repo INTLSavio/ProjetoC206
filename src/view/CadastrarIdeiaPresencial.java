@@ -7,10 +7,10 @@ package view;
 
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
-import projetin.Ideia;
-import projetin.Online;
-import projetin.Presencial;
-import projetin.Usuario;
+import controller.Ideia;
+import controller.Online;
+import controller.Presencial;
+import model.Usuario;
 
 /**
  *
@@ -33,6 +33,7 @@ public class CadastrarIdeiaPresencial extends javax.swing.JFrame {
     
     public CadastrarIdeiaPresencial() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

@@ -5,9 +5,9 @@
  */
 package view;
 
-import projetin.Ideia;
-import projetin.Online;
-import projetin.Usuario;
+import controller.Ideia;
+import controller.Online;
+import model.Usuario;
 
 /**
  *
@@ -33,6 +33,7 @@ public class DetalhesOnline extends javax.swing.JFrame {
     
     public DetalhesOnline() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

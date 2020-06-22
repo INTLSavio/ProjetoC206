@@ -7,9 +7,9 @@ package view;
 
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
-import projetin.Ideia;
-import projetin.Presencial;
-import projetin.Usuario;
+import controller.Ideia;
+import controller.Presencial;
+import model.Usuario;
 
 /**
  *
@@ -39,6 +39,7 @@ public class AlterarPresencial extends javax.swing.JFrame {
     
     public AlterarPresencial() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

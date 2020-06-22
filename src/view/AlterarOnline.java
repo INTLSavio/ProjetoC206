@@ -7,9 +7,9 @@ package view;
 
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
-import projetin.Ideia;
-import projetin.Online;
-import projetin.Usuario;
+import controller.Ideia;
+import controller.Online;
+import model.Usuario;
 
 /**
  *
@@ -40,6 +40,7 @@ public class AlterarOnline extends javax.swing.JFrame {
 
     public AlterarOnline() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

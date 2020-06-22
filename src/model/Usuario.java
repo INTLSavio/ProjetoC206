@@ -1,10 +1,11 @@
-package projetin;
+package model;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
+import controller.Ideia;
 
 public class Usuario {
     
@@ -98,6 +99,7 @@ public class Usuario {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
+    
     public ArrayList<Ideia> lerIdeiasMinha(){
         FileInputStream fin;
         ObjectInputStream in;

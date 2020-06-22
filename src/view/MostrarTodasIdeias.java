@@ -8,10 +8,10 @@ package view;
 import java.util.ArrayList;
 import javax.swing.JButton;
 import javax.swing.table.DefaultTableModel;
-import projetin.Ideia;
-import projetin.Online;
-import projetin.Presencial;
-import projetin.Usuario;
+import controller.Ideia;
+import controller.Online;
+import controller.Presencial;
+import model.Usuario;
 
 /**
  *
